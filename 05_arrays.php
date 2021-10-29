@@ -2,17 +2,41 @@
 
 // Create array
 
+$fruits = ['Apple', 'Banana', 'Mongo', 'Berries'];
+
+
 // Print the whole array
+echo '<pre>';
+var_dump($fruits);
+echo '</pre>';
 
 // Get element by index
 
+echo $fruits [1]. '<br>';
+
 // Set element by index
+
+$fruits [3] = 'ovacado';
+
+echo '<pre>';
+var_dump($fruits);
+echo '</pre>';
 
 // Check if array has element at index 2
 
+isset($fruits[2]); //true
+ 
 // Append element
 
+$fruits [] = 'Watermelon';
+
+echo '<pre>';
+var_dump($fruits);
+echo '</pre>';
+
 // Print the length of the array
+
+
 
 // Add element at the end of the array
 
