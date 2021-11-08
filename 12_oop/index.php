@@ -21,6 +21,7 @@ $Peter -> $age = 21;
 $Peter -> $country = 'Kenya';
 $Peter -> id(18);
 
+
 // Create Person class in Person.php
 
 
